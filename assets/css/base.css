@@ -1,0 +1,72 @@
+:root {
+    --header-height: 120px;
+    --white-color: white !important;
+}
+
+.col {
+    width: 100%;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.mt-56 {
+    margin-top: 56px;
+}
+
+.mt-72 {
+    margin-top: 72px;
+}
+
+html {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#main {
+    max-width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid rgb(33, 61, 92);
+    border-radius: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: rgb(66, 93, 123);    
+    background-color: var(--white-color);
+}
+
+.btn-secondary {
+    color: var(--white-color);
+    background-color: rgb(44, 71, 101);
+    font-weight: 300;
+}
+
+@keyframes swipeRight{
+    from {
+        transform: translateX(-10%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
